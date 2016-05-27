@@ -49,7 +49,7 @@ body {
  color: #000;
 }
 
-media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
    #prev {
     left: 20px;
    }
@@ -59,7 +59,7 @@ media screen and (max-width: 800px) {
    }
 }
 
-media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
    #prev {
     left: 0px;
    }
