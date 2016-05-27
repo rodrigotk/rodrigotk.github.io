@@ -48,3 +48,23 @@ body {
 .arrow:active {
  color: #000;
 }
+
+media screen and (max-width: 800px) {
+   #prev {
+    left: 20px;
+   }
+
+   #next {
+    right: 20px;
+   }
+}
+
+media screen and (max-width: 800px) {
+   #prev {
+    left: 0px;
+   }
+
+   #next {
+    right: 0px;
+   }
+}
