@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
+<head>
+   <script src="/build/epub.min.js"></script>
+   <script src="/build/libs/zip.min.js"></script>
+</head>
 <body>
-   <h1>Hello World</h1>
-   <p>I'm hosted with GitHub Pages.</p>
+   <div onclick="Book.prevPage();">‹</div>
+   <div id="area"></div>
+   <div onclick="Book.nextPage();">›</div>
+   <script>
+      var Book = ePub("/ebook/dom-casmurro.epub");
+      Book.renderTo("area");
+    </script>
 </body>
 </html>
