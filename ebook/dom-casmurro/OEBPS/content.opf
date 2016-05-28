@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Dom Casmurro</dc:title>
+    <dc:creator xmlns:ns0="http://www.idpf.org/2007/opf" ns0:role="aut" ns0:file-as="Assis, Machado de">Machado de Assis</dc:creator>
+    <dc:identifier id="bookid">urn:uuid:AAB2E23D-4D6A-4343-9C9E-D93C8A316662</dc:identifier>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:publisher>Rodrigo Knolseisen - Indie</dc:publisher>
+    <dc:language>pt-BR</dc:language>
+    <dc:identifier xmlns:ns1="http://www.idpf.org/2007/opf" ns1:scheme="calibre">7b53264b-4be7-41ac-bdd3-bb717580cadf</dc:identifier>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="dcterms:modified">2016-05-16T02:25:00Z</meta>
+    <meta name="calibre:title_sort" content="Dom Casmurro"/>
+    <meta name="calibre:author_link_map" content="{&quot;Machado de Assis&quot;: &quot;&quot;}"/>
+    <meta name="cover" content="cover"/>
+  </metadata>
+  <manifest>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item id="base-indesign" href="capitulo-1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-1" href="capitulo-2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-2" href="capitulo-3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-3" href="capitulo-4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-4" href="capitulo-5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-5" href="capitulo-6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-6" href="capitulo-7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-7" href="capitulo-8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-8" href="capitulo-9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-9" href="capitulo-10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-10" href="capitulo-11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-11" href="capitulo-12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-12" href="capitulo-13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-13" href="capitulo-14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-14" href="capitulo-15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-15" href="capitulo-16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-16" href="capitulo-17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-17" href="capitulo-18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-18" href="capitulo-19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-19" href="capitulo-20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-20" href="capitulo-21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-21" href="capitulo-22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-22" href="capitulo-23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-23" href="capitulo-24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-24" href="capitulo-25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-25" href="capitulo-26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-26" href="capitulo-27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-27" href="capitulo-28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-28" href="capitulo-29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-29" href="capitulo-30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-30" href="capitulo-31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-31" href="capitulo-32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-32" href="capitulo-33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-33" href="capitulo-34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-34" href="capitulo-35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-35" href="capitulo-36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-36" href="capitulo-37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-37" href="capitulo-38.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-38" href="capitulo-39.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-39" href="capitulo-40.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-40" href="capitulo-41.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-41" href="capitulo-42.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-42" href="capitulo-43.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-43" href="capitulo-44.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-44" href="capitulo-45.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-45" href="capitulo-46.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-46" href="capitulo-47.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-47" href="capitulo-48.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-48" href="capitulo-49.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-49" href="capitulo-50.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-50" href="capitulo-51.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-51" href="capitulo-52.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-52" href="capitulo-53.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-53" href="capitulo-54.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-54" href="capitulo-55.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-55" href="capitulo-56.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-56" href="capitulo-57.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-57" href="capitulo-58.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-58" href="capitulo-59.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-59" href="capitulo-60.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-60" href="capitulo-61.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-61" href="capitulo-62.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-62" href="capitulo-63.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-63" href="capitulo-64.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-64" href="capitulo-65.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-65" href="capitulo-66.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-66" href="capitulo-67.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-67" href="capitulo-68.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-68" href="capitulo-69.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-69" href="capitulo-70.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-70" href="capitulo-71.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-71" href="capitulo-72.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-72" href="capitulo-73.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-73" href="capitulo-74.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-74" href="capitulo-75.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-75" href="capitulo-76.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-76" href="capitulo-77.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-77" href="capitulo-78.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-78" href="capitulo-79.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-79" href="capitulo-80.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-80" href="capitulo-81.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-81" href="capitulo-82.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-82" href="capitulo-83.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-83" href="capitulo-84.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-84" href="capitulo-85.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-85" href="capitulo-86.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-86" href="capitulo-87.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-87" href="capitulo-88.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-88" href="capitulo-89.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-89" href="capitulo-90.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-90" href="capitulo-91.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-91" href="capitulo-92.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-92" href="capitulo-93.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-93" href="capitulo-94.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-94" href="capitulo-95.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-95" href="capitulo-96.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-96" href="capitulo-97.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-97" href="capitulo-98.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-98" href="capitulo-99.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-99" href="capitulo-100.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-100" href="capitulo-101.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-101" href="capitulo-102.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-102" href="capitulo-103.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-103" href="capitulo-104.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-104" href="capitulo-105.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-105" href="capitulo-106.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-106" href="capitulo-107.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-107" href="capitulo-108.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-108" href="capitulo-109.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-109" href="capitulo-110.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-110" href="capitulo-111.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-111" href="capitulo-112.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-112" href="capitulo-113.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-113" href="capitulo-114.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-114" href="capitulo-115.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-115" href="capitulo-116.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-116" href="capitulo-117.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-117" href="capitulo-118.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-118" href="capitulo-119.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-119" href="capitulo-120.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-120" href="capitulo-121.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-121" href="capitulo-122.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-122" href="capitulo-123.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-123" href="capitulo-124.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-124" href="capitulo-125.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-125" href="capitulo-126.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-126" href="capitulo-127.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-127" href="capitulo-128.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-128" href="capitulo-129.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-129" href="capitulo-130.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-130" href="capitulo-131.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-131" href="capitulo-132.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-132" href="capitulo-133.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-133" href="capitulo-134.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-134" href="capitulo-135.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-135" href="capitulo-136.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-136" href="capitulo-137.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-137" href="capitulo-138.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-138" href="capitulo-139.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-139" href="capitulo-140.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-140" href="capitulo-141.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-141" href="capitulo-142.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-142" href="capitulo-143.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-143" href="capitulo-144.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-144" href="capitulo-145.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-145" href="capitulo-146.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-146" href="capitulo-147.xhtml" media-type="application/xhtml+xml"/>
+    <item id="base-indesign-147" href="capitulo-148.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css"/>
+    <item href="../iTunesArtwork.png" id="cover" media-type="image/png"/>
+    <item id="Merriweather-HeavyItalic.ttf" href="font/Merriweather-HeavyItalic.ttf" media-type="application/x-font-truetype"/>
+    <item id="Merriweather-Italic.ttf" href="font/Merriweather-Italic.ttf" media-type="application/x-font-truetype"/>
+    <item id="Merriweather.ttf" href="font/Merriweather.ttf" media-type="application/x-font-truetype"/>
+    <item id="OpenSans.ttf" href="font/OpenSans.ttf" media-type="application/x-font-truetype"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="base-indesign"/>
+    <itemref idref="base-indesign-1"/>
+    <itemref idref="base-indesign-2"/>
+    <itemref idref="base-indesign-3"/>
+    <itemref idref="base-indesign-4"/>
+    <itemref idref="base-indesign-5"/>
+    <itemref idref="base-indesign-6"/>
+    <itemref idref="base-indesign-7"/>
+    <itemref idref="base-indesign-8"/>
+    <itemref idref="base-indesign-9"/>
+    <itemref idref="base-indesign-10"/>
+    <itemref idref="base-indesign-11"/>
+    <itemref idref="base-indesign-12"/>
+    <itemref idref="base-indesign-13"/>
+    <itemref idref="base-indesign-14"/>
+    <itemref idref="base-indesign-15"/>
+    <itemref idref="base-indesign-16"/>
+    <itemref idref="base-indesign-17"/>
+    <itemref idref="base-indesign-18"/>
+    <itemref idref="base-indesign-19"/>
+    <itemref idref="base-indesign-20"/>
+    <itemref idref="base-indesign-21"/>
+    <itemref idref="base-indesign-22"/>
+    <itemref idref="base-indesign-23"/>
+    <itemref idref="base-indesign-24"/>
+    <itemref idref="base-indesign-25"/>
+    <itemref idref="base-indesign-26"/>
+    <itemref idref="base-indesign-27"/>
+    <itemref idref="base-indesign-28"/>
+    <itemref idref="base-indesign-29"/>
+    <itemref idref="base-indesign-30"/>
+    <itemref idref="base-indesign-31"/>
+    <itemref idref="base-indesign-32"/>
+    <itemref idref="base-indesign-33"/>
+    <itemref idref="base-indesign-34"/>
+    <itemref idref="base-indesign-35"/>
+    <itemref idref="base-indesign-36"/>
+    <itemref idref="base-indesign-37"/>
+    <itemref idref="base-indesign-38"/>
+    <itemref idref="base-indesign-39"/>
+    <itemref idref="base-indesign-40"/>
+    <itemref idref="base-indesign-41"/>
+    <itemref idref="base-indesign-42"/>
+    <itemref idref="base-indesign-43"/>
+    <itemref idref="base-indesign-44"/>
+    <itemref idref="base-indesign-45"/>
+    <itemref idref="base-indesign-46"/>
+    <itemref idref="base-indesign-47"/>
+    <itemref idref="base-indesign-48"/>
+    <itemref idref="base-indesign-49"/>
+    <itemref idref="base-indesign-50"/>
+    <itemref idref="base-indesign-51"/>
+    <itemref idref="base-indesign-52"/>
+    <itemref idref="base-indesign-53"/>
+    <itemref idref="base-indesign-54"/>
+    <itemref idref="base-indesign-55"/>
+    <itemref idref="base-indesign-56"/>
+    <itemref idref="base-indesign-57"/>
+    <itemref idref="base-indesign-58"/>
+    <itemref idref="base-indesign-59"/>
+    <itemref idref="base-indesign-60"/>
+    <itemref idref="base-indesign-61"/>
+    <itemref idref="base-indesign-62"/>
+    <itemref idref="base-indesign-63"/>
+    <itemref idref="base-indesign-64"/>
+    <itemref idref="base-indesign-65"/>
+    <itemref idref="base-indesign-66"/>
+    <itemref idref="base-indesign-67"/>
+    <itemref idref="base-indesign-68"/>
+    <itemref idref="base-indesign-69"/>
+    <itemref idref="base-indesign-70"/>
+    <itemref idref="base-indesign-71"/>
+    <itemref idref="base-indesign-72"/>
+    <itemref idref="base-indesign-73"/>
+    <itemref idref="base-indesign-74"/>
+    <itemref idref="base-indesign-75"/>
+    <itemref idref="base-indesign-76"/>
+    <itemref idref="base-indesign-77"/>
+    <itemref idref="base-indesign-78"/>
+    <itemref idref="base-indesign-79"/>
+    <itemref idref="base-indesign-80"/>
+    <itemref idref="base-indesign-81"/>
+    <itemref idref="base-indesign-82"/>
+    <itemref idref="base-indesign-83"/>
+    <itemref idref="base-indesign-84"/>
+    <itemref idref="base-indesign-85"/>
+    <itemref idref="base-indesign-86"/>
+    <itemref idref="base-indesign-87"/>
+    <itemref idref="base-indesign-88"/>
+    <itemref idref="base-indesign-89"/>
+    <itemref idref="base-indesign-90"/>
+    <itemref idref="base-indesign-91"/>
+    <itemref idref="base-indesign-92"/>
+    <itemref idref="base-indesign-93"/>
+    <itemref idref="base-indesign-94"/>
+    <itemref idref="base-indesign-95"/>
+    <itemref idref="base-indesign-96"/>
+    <itemref idref="base-indesign-97"/>
+    <itemref idref="base-indesign-98"/>
+    <itemref idref="base-indesign-99"/>
+    <itemref idref="base-indesign-100"/>
+    <itemref idref="base-indesign-101"/>
+    <itemref idref="base-indesign-102"/>
+    <itemref idref="base-indesign-103"/>
+    <itemref idref="base-indesign-104"/>
+    <itemref idref="base-indesign-105"/>
+    <itemref idref="base-indesign-106"/>
+    <itemref idref="base-indesign-107"/>
+    <itemref idref="base-indesign-108"/>
+    <itemref idref="base-indesign-109"/>
+    <itemref idref="base-indesign-110"/>
+    <itemref idref="base-indesign-111"/>
+    <itemref idref="base-indesign-112"/>
+    <itemref idref="base-indesign-113"/>
+    <itemref idref="base-indesign-114"/>
+    <itemref idref="base-indesign-115"/>
+    <itemref idref="base-indesign-116"/>
+    <itemref idref="base-indesign-117"/>
+    <itemref idref="base-indesign-118"/>
+    <itemref idref="base-indesign-119"/>
+    <itemref idref="base-indesign-120"/>
+    <itemref idref="base-indesign-121"/>
+    <itemref idref="base-indesign-122"/>
+    <itemref idref="base-indesign-123"/>
+    <itemref idref="base-indesign-124"/>
+    <itemref idref="base-indesign-125"/>
+    <itemref idref="base-indesign-126"/>
+    <itemref idref="base-indesign-127"/>
+    <itemref idref="base-indesign-128"/>
+    <itemref idref="base-indesign-129"/>
+    <itemref idref="base-indesign-130"/>
+    <itemref idref="base-indesign-131"/>
+    <itemref idref="base-indesign-132"/>
+    <itemref idref="base-indesign-133"/>
+    <itemref idref="base-indesign-134"/>
+    <itemref idref="base-indesign-135"/>
+    <itemref idref="base-indesign-136"/>
+    <itemref idref="base-indesign-137"/>
+    <itemref idref="base-indesign-138"/>
+    <itemref idref="base-indesign-139"/>
+    <itemref idref="base-indesign-140"/>
+    <itemref idref="base-indesign-141"/>
+    <itemref idref="base-indesign-142"/>
+    <itemref idref="base-indesign-143"/>
+    <itemref idref="base-indesign-144"/>
+    <itemref idref="base-indesign-145"/>
+    <itemref idref="base-indesign-146"/>
+    <itemref idref="base-indesign-147"/>
+    <itemref idref="toc"/>
+  </spine>
+  <guide>
+    <reference type="acknowledgements" title="Acknowledgements" href="toc.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="capitulo-1.xhtml"/>
+    <reference type="text" title="Text" href="capitulo-1.xhtml"/>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

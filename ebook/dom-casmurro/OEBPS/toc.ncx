@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="pt">
+  <head>
+    <meta content="urn:uuid:AAB2E23D-4D6A-4343-9C9E-D93C8A316662" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (2.57.1)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Dom Casmurro</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Do título</text>
+      </navLabel>
+      <content src="capitulo-1.xhtml"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Do livro</text>
+      </navLabel>
+      <content src="capitulo-2.xhtml"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>A denúncia</text>
+      </navLabel>
+      <content src="capitulo-3.xhtml"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Um dever amaríssimo!</text>
+      </navLabel>
+      <content src="capitulo-4.xhtml"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>O agregado</text>
+      </navLabel>
+      <content src="capitulo-5.xhtml"/>
+    </navPoint>
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Tio Cosme</text>
+      </navLabel>
+      <content src="capitulo-6.xhtml"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>D. Glória</text>
+      </navLabel>
+      <content src="capitulo-7.xhtml"/>
+    </navPoint>
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>É tempo</text>
+      </navLabel>
+      <content src="capitulo-8.xhtml"/>
+    </navPoint>
+    <navPoint id="num_9" playOrder="9">
+      <navLabel>
+        <text>A ópera</text>
+      </navLabel>
+      <content src="capitulo-9.xhtml"/>
+    </navPoint>
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>Aceito a teoria</text>
+      </navLabel>
+      <content src="capitulo-10.xhtml"/>
+    </navPoint>
+    <navPoint id="num_11" playOrder="11">
+      <navLabel>
+        <text>A promessa</text>
+      </navLabel>
+      <content src="capitulo-11.xhtml"/>
+    </navPoint>
+    <navPoint id="num_12" playOrder="12">
+      <navLabel>
+        <text>Na varanda</text>
+      </navLabel>
+      <content src="capitulo-12.xhtml"/>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>Capitu</text>
+      </navLabel>
+      <content src="capitulo-13.xhtml"/>
+    </navPoint>
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>A inscrição</text>
+      </navLabel>
+      <content src="capitulo-14.xhtml"/>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15">
+      <navLabel>
+        <text>Outra voz repentina</text>
+      </navLabel>
+      <content src="capitulo-15.xhtml"/>
+    </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>O administrador interino</text>
+      </navLabel>
+      <content src="capitulo-16.xhtml"/>
+    </navPoint>
+    <navPoint id="num_17" playOrder="17">
+      <navLabel>
+        <text>Os vermes</text>
+      </navLabel>
+      <content src="capitulo-17.xhtml"/>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18">
+      <navLabel>
+        <text>Um plano</text>
+      </navLabel>
+      <content src="capitulo-18.xhtml"/>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel>
+        <text>Sem falta</text>
+      </navLabel>
+      <content src="capitulo-19.xhtml"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20">
+      <navLabel>
+        <text>Mil padre-nossos e mil ave-marias</text>
+      </navLabel>
+      <content src="capitulo-20.xhtml"/>
+    </navPoint>
+    <navPoint id="num_21" playOrder="21">
+      <navLabel>
+        <text>Prima Justina</text>
+      </navLabel>
+      <content src="capitulo-21.xhtml"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22">
+      <navLabel>
+        <text>Sensações alheias</text>
+      </navLabel>
+      <content src="capitulo-22.xhtml"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23">
+      <navLabel>
+        <text>Prazo dado</text>
+      </navLabel>
+      <content src="capitulo-23.xhtml"/>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>De mãe e de servo</text>
+      </navLabel>
+      <content src="capitulo-24.xhtml"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25">
+      <navLabel>
+        <text>No passeio público</text>
+      </navLabel>
+      <content src="capitulo-25.xhtml"/>
+    </navPoint>
+    <navPoint id="num_26" playOrder="26">
+      <navLabel>
+        <text>As leis são belas</text>
+      </navLabel>
+      <content src="capitulo-26.xhtml"/>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27">
+      <navLabel>
+        <text>Ao portão</text>
+      </navLabel>
+      <content src="capitulo-27.xhtml"/>
+    </navPoint>
+    <navPoint id="num_28" playOrder="28">
+      <navLabel>
+        <text>Na rua</text>
+      </navLabel>
+      <content src="capitulo-28.xhtml"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29">
+      <navLabel>
+        <text>O imperador</text>
+      </navLabel>
+      <content src="capitulo-29.xhtml"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel>
+        <text>O santíssimo</text>
+      </navLabel>
+      <content src="capitulo-30.xhtml"/>
+    </navPoint>
+    <navPoint id="num_31" playOrder="31">
+      <navLabel>
+        <text>Curiosidades de Capitu</text>
+      </navLabel>
+      <content src="capitulo-31.xhtml"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32">
+      <navLabel>
+        <text>Olhos de ressaca</text>
+      </navLabel>
+      <content src="capitulo-32.xhtml"/>
+    </navPoint>
+    <navPoint id="num_33" playOrder="33">
+      <navLabel>
+        <text>Penteado</text>
+      </navLabel>
+      <content src="capitulo-33.xhtml"/>
+    </navPoint>
+    <navPoint id="num_34" playOrder="34">
+      <navLabel>
+        <text>Sou homem!</text>
+      </navLabel>
+      <content src="capitulo-34.xhtml"/>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35">
+      <navLabel>
+        <text>Protonário apostólico</text>
+      </navLabel>
+      <content src="capitulo-35.xhtml"/>
+    </navPoint>
+    <navPoint id="num_36" playOrder="36">
+      <navLabel>
+        <text>Ideia sem pernas e ideia sem braços</text>
+      </navLabel>
+      <content src="capitulo-36.xhtml"/>
+    </navPoint>
+    <navPoint id="num_37" playOrder="37">
+      <navLabel>
+        <text>A alma é cheia de mistérios</text>
+      </navLabel>
+      <content src="capitulo-37.xhtml"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel>
+        <text>Que susto, meu Deus!</text>
+      </navLabel>
+      <content src="capitulo-38.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>A vocação</text>
+      </navLabel>
+      <content src="capitulo-39.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel>
+        <text>Uma égua</text>
+      </navLabel>
+      <content src="capitulo-40.xhtml"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41">
+      <navLabel>
+        <text>A audiência secreta</text>
+      </navLabel>
+      <content src="capitulo-41.xhtml"/>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42">
+      <navLabel>
+        <text>Capitu refletindo</text>
+      </navLabel>
+      <content src="capitulo-42.xhtml"/>
+    </navPoint>
+    <navPoint id="num_43" playOrder="43">
+      <navLabel>
+        <text>Você tem medo?</text>
+      </navLabel>
+      <content src="capitulo-43.xhtml"/>
+    </navPoint>
+    <navPoint id="num_44" playOrder="44">
+      <navLabel>
+        <text>O primeiro filho</text>
+      </navLabel>
+      <content src="capitulo-44.xhtml"/>
+    </navPoint>
+    <navPoint id="num_45" playOrder="45">
+      <navLabel>
+        <text>Abane a cabeça, leitor</text>
+      </navLabel>
+      <content src="capitulo-45.xhtml"/>
+    </navPoint>
+    <navPoint id="num_46" playOrder="46">
+      <navLabel>
+        <text>As pazes</text>
+      </navLabel>
+      <content src="capitulo-46.xhtml"/>
+    </navPoint>
+    <navPoint id="num_47" playOrder="47">
+      <navLabel>
+        <text>"A senhora saiu"</text>
+      </navLabel>
+      <content src="capitulo-47.xhtml"/>
+    </navPoint>
+    <navPoint id="num_48" playOrder="48">
+      <navLabel>
+        <text>Juramento do poço</text>
+      </navLabel>
+      <content src="capitulo-48.xhtml"/>
+    </navPoint>
+    <navPoint id="num_49" playOrder="49">
+      <navLabel>
+        <text>Uma vela aos sábados</text>
+      </navLabel>
+      <content src="capitulo-49.xhtml"/>
+    </navPoint>
+    <navPoint id="num_50" playOrder="50">
+      <navLabel>
+        <text>Um meio-termo</text>
+      </navLabel>
+      <content src="capitulo-50.xhtml"/>
+    </navPoint>
+    <navPoint id="num_51" playOrder="51">
+      <navLabel>
+        <text>Entre luz e fusco</text>
+      </navLabel>
+      <content src="capitulo-51.xhtml"/>
+    </navPoint>
+    <navPoint id="num_52" playOrder="52">
+      <navLabel>
+        <text>O velho Pádua</text>
+      </navLabel>
+      <content src="capitulo-52.xhtml"/>
+    </navPoint>
+    <navPoint id="num_53" playOrder="53">
+      <navLabel>
+        <text>A caminho!</text>
+      </navLabel>
+      <content src="capitulo-53.xhtml"/>
+    </navPoint>
+    <navPoint id="num_54" playOrder="54">
+      <navLabel>
+        <text>Panegírico de Santa Mônica</text>
+      </navLabel>
+      <content src="capitulo-54.xhtml"/>
+    </navPoint>
+    <navPoint id="num_55" playOrder="55">
+      <navLabel>
+        <text>Um soneto</text>
+      </navLabel>
+      <content src="capitulo-55.xhtml"/>
+    </navPoint>
+    <navPoint id="num_56" playOrder="56">
+      <navLabel>
+        <text>Um seminarista</text>
+      </navLabel>
+      <content src="capitulo-56.xhtml"/>
+    </navPoint>
+    <navPoint id="num_57" playOrder="57">
+      <navLabel>
+        <text>De preparação</text>
+      </navLabel>
+      <content src="capitulo-57.xhtml"/>
+    </navPoint>
+    <navPoint id="num_58" playOrder="58">
+      <navLabel>
+        <text>O tratado</text>
+      </navLabel>
+      <content src="capitulo-58.xhtml"/>
+    </navPoint>
+    <navPoint id="num_59" playOrder="59">
+      <navLabel>
+        <text>Convivas de boa memória</text>
+      </navLabel>
+      <content src="capitulo-59.xhtml"/>
+    </navPoint>
+    <navPoint id="num_60" playOrder="60">
+      <navLabel>
+        <text>Querido opúsculo</text>
+      </navLabel>
+      <content src="capitulo-60.xhtml"/>
+    </navPoint>
+    <navPoint id="num_61" playOrder="61">
+      <navLabel>
+        <text>A vaca de Homero</text>
+      </navLabel>
+      <content src="capitulo-61.xhtml"/>
+    </navPoint>
+    <navPoint id="num_62" playOrder="62">
+      <navLabel>
+        <text>Uma ponta de Iago</text>
+      </navLabel>
+      <content src="capitulo-62.xhtml"/>
+    </navPoint>
+    <navPoint id="num_63" playOrder="63">
+      <navLabel>
+        <text>Metades de um sonho</text>
+      </navLabel>
+      <content src="capitulo-63.xhtml"/>
+    </navPoint>
+    <navPoint id="num_64" playOrder="64">
+      <navLabel>
+        <text>Uma ideia e um escrúpulo</text>
+      </navLabel>
+      <content src="capitulo-64.xhtml"/>
+    </navPoint>
+    <navPoint id="num_65" playOrder="65">
+      <navLabel>
+        <text>A dissimulação</text>
+      </navLabel>
+      <content src="capitulo-65.xhtml"/>
+    </navPoint>
+    <navPoint id="num_66" playOrder="66">
+      <navLabel>
+        <text>Intimidade</text>
+      </navLabel>
+      <content src="capitulo-66.xhtml"/>
+    </navPoint>
+    <navPoint id="num_67" playOrder="67">
+      <navLabel>
+        <text>Um pecado</text>
+      </navLabel>
+      <content src="capitulo-67.xhtml"/>
+    </navPoint>
+    <navPoint id="num_68" playOrder="68">
+      <navLabel>
+        <text>Adiemos a virtude</text>
+      </navLabel>
+      <content src="capitulo-68.xhtml"/>
+    </navPoint>
+    <navPoint id="num_69" playOrder="69">
+      <navLabel>
+        <text>A missa</text>
+      </navLabel>
+      <content src="capitulo-69.xhtml"/>
+    </navPoint>
+    <navPoint id="num_70" playOrder="70">
+      <navLabel>
+        <text>Depois da missa</text>
+      </navLabel>
+      <content src="capitulo-70.xhtml"/>
+    </navPoint>
+    <navPoint id="num_71" playOrder="71">
+      <navLabel>
+        <text>Visita de Escobar</text>
+      </navLabel>
+      <content src="capitulo-71.xhtml"/>
+    </navPoint>
+    <navPoint id="num_72" playOrder="72">
+      <navLabel>
+        <text>Uma reforma dramática</text>
+      </navLabel>
+      <content src="capitulo-72.xhtml"/>
+    </navPoint>
+    <navPoint id="num_73" playOrder="73">
+      <navLabel>
+        <text>O contrarregra</text>
+      </navLabel>
+      <content src="capitulo-73.xhtml"/>
+    </navPoint>
+    <navPoint id="num_74" playOrder="74">
+      <navLabel>
+        <text>A presilha</text>
+      </navLabel>
+      <content src="capitulo-74.xhtml"/>
+    </navPoint>
+    <navPoint id="num_75" playOrder="75">
+      <navLabel>
+        <text>O desespero</text>
+      </navLabel>
+      <content src="capitulo-75.xhtml"/>
+    </navPoint>
+    <navPoint id="num_76" playOrder="76">
+      <navLabel>
+        <text>Explicação</text>
+      </navLabel>
+      <content src="capitulo-76.xhtml"/>
+    </navPoint>
+    <navPoint id="num_77" playOrder="77">
+      <navLabel>
+        <text>Prazer das dores velhas</text>
+      </navLabel>
+      <content src="capitulo-77.xhtml"/>
+    </navPoint>
+    <navPoint id="num_78" playOrder="78">
+      <navLabel>
+        <text>Segredo por segredo</text>
+      </navLabel>
+      <content src="capitulo-78.xhtml"/>
+    </navPoint>
+    <navPoint id="num_79" playOrder="79">
+      <navLabel>
+        <text>Vamos ao capítulo</text>
+      </navLabel>
+      <content src="capitulo-79.xhtml"/>
+    </navPoint>
+    <navPoint id="num_80" playOrder="80">
+      <navLabel>
+        <text>Venhamos ao capítulo</text>
+      </navLabel>
+      <content src="capitulo-80.xhtml"/>
+    </navPoint>
+    <navPoint id="num_81" playOrder="81">
+      <navLabel>
+        <text>Uma palavra</text>
+      </navLabel>
+      <content src="capitulo-81.xhtml"/>
+    </navPoint>
+    <navPoint id="num_82" playOrder="82">
+      <navLabel>
+        <text>O canapé</text>
+      </navLabel>
+      <content src="capitulo-82.xhtml"/>
+    </navPoint>
+    <navPoint id="num_83" playOrder="83">
+      <navLabel>
+        <text>O retrato</text>
+      </navLabel>
+      <content src="capitulo-83.xhtml"/>
+    </navPoint>
+    <navPoint id="num_84" playOrder="84">
+      <navLabel>
+        <text>Chamado</text>
+      </navLabel>
+      <content src="capitulo-84.xhtml"/>
+    </navPoint>
+    <navPoint id="num_85" playOrder="85">
+      <navLabel>
+        <text>O defunto</text>
+      </navLabel>
+      <content src="capitulo-85.xhtml"/>
+    </navPoint>
+    <navPoint id="num_86" playOrder="86">
+      <navLabel>
+        <text>Amai, rapazes!</text>
+      </navLabel>
+      <content src="capitulo-86.xhtml"/>
+    </navPoint>
+    <navPoint id="num_87" playOrder="87">
+      <navLabel>
+        <text>A sege</text>
+      </navLabel>
+      <content src="capitulo-87.xhtml"/>
+    </navPoint>
+    <navPoint id="num_88" playOrder="88">
+      <navLabel>
+        <text>Um pretexto honesto</text>
+      </navLabel>
+      <content src="capitulo-88.xhtml"/>
+    </navPoint>
+    <navPoint id="num_89" playOrder="89">
+      <navLabel>
+        <text>A recusa</text>
+      </navLabel>
+      <content src="capitulo-89.xhtml"/>
+    </navPoint>
+    <navPoint id="num_90" playOrder="90">
+      <navLabel>
+        <text>A polêmica</text>
+      </navLabel>
+      <content src="capitulo-90.xhtml"/>
+    </navPoint>
+    <navPoint id="num_91" playOrder="91">
+      <navLabel>
+        <text>Achado que consola</text>
+      </navLabel>
+      <content src="capitulo-91.xhtml"/>
+    </navPoint>
+    <navPoint id="num_92" playOrder="92">
+      <navLabel>
+        <text>O diabo não é tão feio quanto se pinta</text>
+      </navLabel>
+      <content src="capitulo-92.xhtml"/>
+    </navPoint>
+    <navPoint id="num_93" playOrder="93">
+      <navLabel>
+        <text>Um amigo por um defunto</text>
+      </navLabel>
+      <content src="capitulo-93.xhtml"/>
+    </navPoint>
+    <navPoint id="num_94" playOrder="94">
+      <navLabel>
+        <text>Ideias aritméticas</text>
+      </navLabel>
+      <content src="capitulo-94.xhtml"/>
+    </navPoint>
+    <navPoint id="num_95" playOrder="95">
+      <navLabel>
+        <text>O Papa</text>
+      </navLabel>
+      <content src="capitulo-95.xhtml"/>
+    </navPoint>
+    <navPoint id="num_96" playOrder="96">
+      <navLabel>
+        <text>Um substituto</text>
+      </navLabel>
+      <content src="capitulo-96.xhtml"/>
+    </navPoint>
+    <navPoint id="num_97" playOrder="97">
+      <navLabel>
+        <text>A saída</text>
+      </navLabel>
+      <content src="capitulo-97.xhtml"/>
+    </navPoint>
+    <navPoint id="num_98" playOrder="98">
+      <navLabel>
+        <text>Cinco anos</text>
+      </navLabel>
+      <content src="capitulo-98.xhtml"/>
+    </navPoint>
+    <navPoint id="num_99" playOrder="99">
+      <navLabel>
+        <text>O filho é a cara do pai</text>
+      </navLabel>
+      <content src="capitulo-99.xhtml"/>
+    </navPoint>
+    <navPoint id="num_100" playOrder="100">
+      <navLabel>
+        <text>"Tu serás feliz, Bentinho!"</text>
+      </navLabel>
+      <content src="capitulo-100.xhtml"/>
+    </navPoint>
+    <navPoint id="num_101" playOrder="101">
+      <navLabel>
+        <text>No céu</text>
+      </navLabel>
+      <content src="capitulo-101.xhtml"/>
+    </navPoint>
+    <navPoint id="num_102" playOrder="102">
+      <navLabel>
+        <text>De casada</text>
+      </navLabel>
+      <content src="capitulo-102.xhtml"/>
+    </navPoint>
+    <navPoint id="num_103" playOrder="103">
+      <navLabel>
+        <text>A felicidade tem boa alma</text>
+      </navLabel>
+      <content src="capitulo-103.xhtml"/>
+    </navPoint>
+    <navPoint id="num_104" playOrder="104">
+      <navLabel>
+        <text>As pirâmides</text>
+      </navLabel>
+      <content src="capitulo-104.xhtml"/>
+    </navPoint>
+    <navPoint id="num_105" playOrder="105">
+      <navLabel>
+        <text>Os braços</text>
+      </navLabel>
+      <content src="capitulo-105.xhtml"/>
+    </navPoint>
+    <navPoint id="num_106" playOrder="106">
+      <navLabel>
+        <text>Dez libras esterlinas</text>
+      </navLabel>
+      <content src="capitulo-106.xhtml"/>
+    </navPoint>
+    <navPoint id="num_107" playOrder="107">
+      <navLabel>
+        <text>Ciúmes do mar</text>
+      </navLabel>
+      <content src="capitulo-107.xhtml"/>
+    </navPoint>
+    <navPoint id="num_108" playOrder="108">
+      <navLabel>
+        <text>Um filho</text>
+      </navLabel>
+      <content src="capitulo-108.xhtml"/>
+    </navPoint>
+    <navPoint id="num_109" playOrder="109">
+      <navLabel>
+        <text>Um filho único</text>
+      </navLabel>
+      <content src="capitulo-109.xhtml"/>
+    </navPoint>
+    <navPoint id="num_110" playOrder="110">
+      <navLabel>
+        <text>Rasgos da infância</text>
+      </navLabel>
+      <content src="capitulo-110.xhtml"/>
+    </navPoint>
+    <navPoint id="num_111" playOrder="111">
+      <navLabel>
+        <text>Contado depressa</text>
+      </navLabel>
+      <content src="capitulo-111.xhtml"/>
+    </navPoint>
+    <navPoint id="num_112" playOrder="112">
+      <navLabel>
+        <text>As imitações de Ezequiel</text>
+      </navLabel>
+      <content src="capitulo-112.xhtml"/>
+    </navPoint>
+    <navPoint id="num_113" playOrder="113">
+      <navLabel>
+        <text>Embargos de terceiro</text>
+      </navLabel>
+      <content src="capitulo-113.xhtml"/>
+    </navPoint>
+    <navPoint id="num_114" playOrder="114">
+      <navLabel>
+        <text>Em que se explica o explicado</text>
+      </navLabel>
+      <content src="capitulo-114.xhtml"/>
+    </navPoint>
+    <navPoint id="num_115" playOrder="115">
+      <navLabel>
+        <text>Dúvidas sobre dúvidas</text>
+      </navLabel>
+      <content src="capitulo-115.xhtml"/>
+    </navPoint>
+    <navPoint id="num_116" playOrder="116">
+      <navLabel>
+        <text>Filho do homem</text>
+      </navLabel>
+      <content src="capitulo-116.xhtml"/>
+    </navPoint>
+    <navPoint id="num_117" playOrder="117">
+      <navLabel>
+        <text>Amigos próximos</text>
+      </navLabel>
+      <content src="capitulo-117.xhtml"/>
+    </navPoint>
+    <navPoint id="num_118" playOrder="118">
+      <navLabel>
+        <text>A mão de Sancha</text>
+      </navLabel>
+      <content src="capitulo-118.xhtml"/>
+    </navPoint>
+    <navPoint id="num_119" playOrder="119">
+      <navLabel>
+        <text>Não faça isso, querida!</text>
+      </navLabel>
+      <content src="capitulo-119.xhtml"/>
+    </navPoint>
+    <navPoint id="num_120" playOrder="120">
+      <navLabel>
+        <text>Os autos</text>
+      </navLabel>
+      <content src="capitulo-120.xhtml"/>
+    </navPoint>
+    <navPoint id="num_121" playOrder="121">
+      <navLabel>
+        <text>A catástrofe</text>
+      </navLabel>
+      <content src="capitulo-121.xhtml"/>
+    </navPoint>
+    <navPoint id="num_122" playOrder="122">
+      <navLabel>
+        <text>O enterro</text>
+      </navLabel>
+      <content src="capitulo-122.xhtml"/>
+    </navPoint>
+    <navPoint id="num_123" playOrder="123">
+      <navLabel>
+        <text>Olhos de ressaca</text>
+      </navLabel>
+      <content src="capitulo-123.xhtml"/>
+    </navPoint>
+    <navPoint id="num_124" playOrder="124">
+      <navLabel>
+        <text>O discurso</text>
+      </navLabel>
+      <content src="capitulo-124.xhtml"/>
+    </navPoint>
+    <navPoint id="num_125" playOrder="125">
+      <navLabel>
+        <text>Uma comparação</text>
+      </navLabel>
+      <content src="capitulo-125.xhtml"/>
+    </navPoint>
+    <navPoint id="num_126" playOrder="126">
+      <navLabel>
+        <text>Cismando</text>
+      </navLabel>
+      <content src="capitulo-126.xhtml"/>
+    </navPoint>
+    <navPoint id="num_127" playOrder="127">
+      <navLabel>
+        <text>O barbeiro</text>
+      </navLabel>
+      <content src="capitulo-127.xhtml"/>
+    </navPoint>
+    <navPoint id="num_128" playOrder="128">
+      <navLabel>
+        <text>Punhado de sucessos</text>
+      </navLabel>
+      <content src="capitulo-128.xhtml"/>
+    </navPoint>
+    <navPoint id="num_129" playOrder="129">
+      <navLabel>
+        <text>A D. Sancha</text>
+      </navLabel>
+      <content src="capitulo-129.xhtml"/>
+    </navPoint>
+    <navPoint id="num_130" playOrder="130">
+      <navLabel>
+        <text>Um dia...</text>
+      </navLabel>
+      <content src="capitulo-130.xhtml"/>
+    </navPoint>
+    <navPoint id="num_131" playOrder="131">
+      <navLabel>
+        <text>Anterior ao anterior</text>
+      </navLabel>
+      <content src="capitulo-131.xhtml"/>
+    </navPoint>
+    <navPoint id="num_132" playOrder="132">
+      <navLabel>
+        <text>O debuxo e o colorido</text>
+      </navLabel>
+      <content src="capitulo-132.xhtml"/>
+    </navPoint>
+    <navPoint id="num_133" playOrder="133">
+      <navLabel>
+        <text>Uma ideia</text>
+      </navLabel>
+      <content src="capitulo-133.xhtml"/>
+    </navPoint>
+    <navPoint id="num_134" playOrder="134">
+      <navLabel>
+        <text>O dia de sábado</text>
+      </navLabel>
+      <content src="capitulo-134.xhtml"/>
+    </navPoint>
+    <navPoint id="num_135" playOrder="135">
+      <navLabel>
+        <text>Otelo</text>
+      </navLabel>
+      <content src="capitulo-135.xhtml"/>
+    </navPoint>
+    <navPoint id="num_136" playOrder="136">
+      <navLabel>
+        <text>A xícara de café</text>
+      </navLabel>
+      <content src="capitulo-136.xhtml"/>
+    </navPoint>
+    <navPoint id="num_137" playOrder="137">
+      <navLabel>
+        <text>Segundo impulso</text>
+      </navLabel>
+      <content src="capitulo-137.xhtml"/>
+    </navPoint>
+    <navPoint id="num_138" playOrder="138">
+      <navLabel>
+        <text>Capitu que entra</text>
+      </navLabel>
+      <content src="capitulo-138.xhtml"/>
+    </navPoint>
+    <navPoint id="num_139" playOrder="139">
+      <navLabel>
+        <text>A fotografia</text>
+      </navLabel>
+      <content src="capitulo-139.xhtml"/>
+    </navPoint>
+    <navPoint id="num_140" playOrder="140">
+      <navLabel>
+        <text>Volta da igreja</text>
+      </navLabel>
+      <content src="capitulo-140.xhtml"/>
+    </navPoint>
+    <navPoint id="num_141" playOrder="141">
+      <navLabel>
+        <text>A solução</text>
+      </navLabel>
+      <content src="capitulo-141.xhtml"/>
+    </navPoint>
+    <navPoint id="num_142" playOrder="142">
+      <navLabel>
+        <text>Uma santa</text>
+      </navLabel>
+      <content src="capitulo-142.xhtml"/>
+    </navPoint>
+    <navPoint id="num_143" playOrder="143">
+      <navLabel>
+        <text>O últimio superlativo</text>
+      </navLabel>
+      <content src="capitulo-143.xhtml"/>
+    </navPoint>
+    <navPoint id="num_144" playOrder="144">
+      <navLabel>
+        <text>Uma pergunta tardia</text>
+      </navLabel>
+      <content src="capitulo-144.xhtml"/>
+    </navPoint>
+    <navPoint id="num_145" playOrder="145">
+      <navLabel>
+        <text>O regresso</text>
+      </navLabel>
+      <content src="capitulo-145.xhtml"/>
+    </navPoint>
+    <navPoint id="num_146" playOrder="146">
+      <navLabel>
+        <text>Não houve lepra</text>
+      </navLabel>
+      <content src="capitulo-146.xhtml"/>
+    </navPoint>
+    <navPoint id="num_147" playOrder="147">
+      <navLabel>
+        <text>A exposição retrospectiva</text>
+      </navLabel>
+      <content src="capitulo-147.xhtml"/>
+    </navPoint>
+    <navPoint id="num_148" playOrder="148">
+      <navLabel>
+        <text>E bem, e o resto?</text>
+      </navLabel>
+      <content src="capitulo-148.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

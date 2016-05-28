@@ -27,7 +27,7 @@
 
    <!-- Scripts -->
    <script src="/build/epub.min.js"></script>
-   <script src="/build/libs/zip.min.js"></script>
+   <!--<script src="/build/libs/zip.min.js"></script>-->
 
    <!-- CSS -->
    <link href="styles/normalize.css" rel="stylesheet">
@@ -57,7 +57,7 @@
 
    <!-- Scripts relacionados ao eBook -->
    <script>
-      var Book = ePub("/ebook/dom-casmurro.epub");
+      var Book = ePub("/ebook/dom-casmurro");
       Book.renderTo("area");
 
       Book.getToc().then(function(toc){

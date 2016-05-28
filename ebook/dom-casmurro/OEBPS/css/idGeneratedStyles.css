@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Merriweather.ttf);
+  }
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 900;
+  src: url(../font/Merriweather-HeavyItalic.ttf);
+  }
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: normal;
+  src: url(../font/Merriweather-Italic.ttf);
+  }
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/OpenSans.ttf);
+  }
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+body {
+  font-size: 100%;
+}
+aside {
+  display: none;
+}
+@page {
+  margin: 0 0 0 0;
+  }
+  
+.tooltip{
+  background:rgb(230,230,230);
+  font-family:"Open Sans", sans-serif;
+  line-height: 1.5em;
+  display:block;
+  max-width:200px;
+  border-radius:5px;
+  padding= 10px 10px;
+}
+p.Basic-Paragraph {
+  -epub-hyphens: none;
+  color: #000;
+  font-family: Merriweather, serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-bottom: 22px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 2;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 2;
+}
+h1.h1 {
+  -epub-hyphens: none;
+  color: #AA321E;
+  font-family: Merriweather, serif;
+  font-size: 2.375em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 900;
+  line-height: 1.375em;
+  margin-bottom: 1.375em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: avoid;
+  page-break-before: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
+}
+p.numeracao {
+  -epub-hyphens: none;
+  color: #6E6E6E;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: avoid;
+  page-break-before: always;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
+}
+p.travessao {
+  -epub-hyphens: none;
+  color: #000;
+  font-family: Merriweather, serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.375em;
+  margin-bottom: 22px;
+  margin-left: 36px;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 2;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: -13px;
+  text-transform: none;
+  widows: 2;
+}
+a {
+  color: #1d756c;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 900;
+}
+span.bold-italic {
+  font-style: italic;
+  font-weight: 900;
+}
+em.em {
+  font-style: italic;
+  font-weight: normal;
+}
+div._idGenObjectStyleOverride-1 {
+  border-width: 0;
+}
+div._idGenObjectLayout-1 {
+  text-align: center;
+}
