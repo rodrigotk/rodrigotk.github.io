@@ -43,7 +43,9 @@
    <!-- eBook -->
    <div id="main">
       <div class="indice">
-         <select id="toc"></select>
+         <select id="toc">
+            <option>Selecione o capítulo</option>
+         </select>
       </div>
       <div class="titulo">
          <h1>Dom Casmurro - Machado de Assis</h1>
@@ -53,6 +55,7 @@
       <div id="next" onclick="Book.nextPage();" class="arrow">›</div>
    </div>
 
+   <!-- Scripts relacionados ao eBook -->
    <script>
       var Book = ePub("/ebook/dom-casmurro.epub");
       Book.renderTo("area");

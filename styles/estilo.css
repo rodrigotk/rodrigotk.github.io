@@ -10,6 +10,11 @@ h1{
    font-family: 'Merriweather', serif;
 }
 
+select{
+   border:none;
+   backgroung:rgb(240,240,240);
+}
+
 .indice{
    float: left;
    margin-top: 10px;
@@ -71,6 +76,10 @@ h1{
 
    #next {
     right: 28px;
+   }
+
+   .titulo{
+      display:none;
    }
 }
 
