@@ -9,7 +9,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
 
         <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/popup.css">
@@ -24,16 +23,12 @@
               if (document.readyState == "complete") {
                 EPUBJS.filePath = "js/libs/";
                 EPUBJS.cssPath = window.location.href.replace(window.location.hash, '').replace('index.html', '') + "css/";
-                // fileStorage.filePath = EPUBJS.filePath;
 
                 window.reader = ePubReader("dom-casmurro/");
               }
             };
 
         </script>
-
-        <!-- File Storage -->
-        <!-- <script src="js/libs/localforage.min.js"></script> -->
 
         <!-- Full Screen -->
         <script src="js/libs/screenfull.min.js"></script>
@@ -47,12 +42,6 @@
         <!-- Reader -->
         <script src="js/reader.min.js"></script>
 
-        <!-- Plugins -->
-        <!-- <script src="js/plugins/search.js"></script> -->
-
-        <!-- Highlights -->
-        <!-- <script src="js/libs/jquery.highlight.js"></script> -->
-        <!-- <script src="js/hooks/extensions/highlight.js"></script> -->
 
     </head>
     <body>
@@ -60,10 +49,10 @@
         <div id="panels">
           <input id="searchBox" placeholder="search" type="search">
 
-          <a id="show-Search" class="show_view icon-search" data-view="Search">Search</a>
-          <a id="show-Toc" class="show_view icon-list-1 active" data-view="Toc">TOC</a>
-          <a id="show-Bookmarks" class="show_view icon-bookmark" data-view="Bookmarks">Bookmarks</a>
-          <a id="show-Notes" class="show_view icon-edit" data-view="Notes">Notes</a>
+          <a id="show-Search" class="show_view icon-search" data-view="Search">Pesquisar</a>
+          <a id="show-Toc" class="show_view icon-list-1 active" data-view="Toc">Índice</a>
+          <a id="show-Bookmarks" class="show_view icon-bookmark" data-view="Bookmarks">Favoritos</a>
+          <a id="show-Notes" class="show_view icon-edit" data-view="Notes">Anotações</a>
 
         </div>
         <div id="tocView" class="view">
@@ -77,7 +66,7 @@
         <div id="notesView" class="view">
           <div id="new-note">
             <textarea id="note-text"></textarea>
-            <button id="note-anchor">Anchor</button>
+            <button id="note-anchor">Ancoras</button>
           </div>
           <ol id="notes"></ol>
         </div>
@@ -94,9 +83,9 @@
             <span id="chapter-title"></span>
           </div>
           <div id="title-controls">
-            <a id="bookmark" class="icon-bookmark-empty">Bookmark</a>
-            <a id="setting" class="icon-cog">Settings</a>
-            <a id="fullscreen" class="icon-resize-full">Fullscreen</a>
+            <a id="bookmark" class="icon-bookmark-empty">Favoritos</a>
+            <a id="setting" class="icon-cog">Configurações</a>
+            <a id="fullscreen" class="icon-resize-full">Tela Cheia</a>
           </div>
         </div>
 
@@ -109,10 +98,10 @@
       </div>
       <div class="modal md-effect-1" id="settings-modal">
           <div class="md-content">
-              <h3>Settings</h3>
+              <h3>Configurações</h3>
               <div>
                   <p>
-                    <input type="checkbox" id="sidebarReflow" name="sidebarReflow">Reflow text when sidebars are open.
+                    <input type="checkbox" id="sidebarReflow" name="sidebarReflow">Reorganizar o texto quando a barra lateral estiver aberta.
                   </p>
               </div>
               <div class="closer icon-cancel-circled"></div>
