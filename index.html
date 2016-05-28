@@ -43,7 +43,7 @@
    <!-- eBook -->
    <div id="main">
       <div class="indice">
-         <select id="toc"></select>
+         <p id="toc"></p>
       </div>
       <div class="titulo">
          <h1>Dom Casmurro - Machado de Assis</h1>
@@ -57,15 +57,11 @@
       var Book = ePub("/ebook/dom-casmurro.epub");
       Book.renderTo("area");
 
-      Book.getMetadata().then(function(meta){
-          document.title = meta.bookTitle+" – "+meta.creator;
-      });
-
       Book.getToc().then(function(toc){
         var $select = document.getElementById("toc"),
             docfrag = document.createDocumentFragment();
         toc.forEach(function(chapter) {
-          var option = document.createElement("option");
+          var option = document.createElement("a");
           option.textContent = chapter.label;
           option.ref = chapter.href;
           docfrag.appendChild(option);
