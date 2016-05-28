@@ -43,7 +43,7 @@
    <!-- eBook -->
    <div id="main">
       <div class="indice">
-         <p id="toc"></p>
+         <select id="toc"></select>
       </div>
       <div class="titulo">
          <h1>Dom Casmurro - Machado de Assis</h1>
@@ -61,10 +61,10 @@
         var $select = document.getElementById("toc"),
             docfrag = document.createDocumentFragment();
         toc.forEach(function(chapter) {
-          var anchor = document.createElement("a");
-          anchor.textContent = chapter.label;
-          anchor.ref = chapter.href;
-          docfrag.appendChild(anchor);
+          var option = document.createElement("option");
+          option.textContent = chapter.label;
+          option.ref = chapter.href;
+          docfrag.appendChild(option);
         });
 
         $select.appendChild(docfrag);
