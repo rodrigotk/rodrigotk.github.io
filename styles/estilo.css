@@ -12,7 +12,7 @@ h1{
 
 select{
    border:none;
-   backgroung:rgb(240,240,240);
+   backgroung:rgb(220,220,220);
 }
 
 .indice{
@@ -80,6 +80,14 @@ select{
 
    .titulo{
       display:none;
+   }
+
+   .indice{
+      float: none;
+      margin: auto;
+      margin-top: 10px;
+      display: block;
+      text-align: center;
    }
 }
 
