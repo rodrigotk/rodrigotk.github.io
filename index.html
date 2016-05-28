@@ -1,86 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
 
-   <title>Dom Casmurro</title>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-   <!-- Metadados -->
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-   <meta name="description" content="Versão digital do livro Dom Casmurro de Machado de Assis.">
-   <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/popup.css">
 
-   <!-- Favicons -->
-   <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-   <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
-   <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
-   <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+        <script src="js/libs/jquery.min.js"></script>
+        <script src="js/libs/zip.min.js"></script>
 
-   <!-- OG Image-->
-   <meta property="og:title" content="Dom Casmurro - Machado de Assis" />
-   <meta property="og:type" content="website" />
-   <meta property="og:url" content="" />
-   <meta property="og:image" content="/img/og-domcasmurro.png" />
-   <meta property="og:description" content="Versão digital do livro Dom Casmurro, escrito por Machado de Assis e considerado um dos maiores clássicos da literatura escrito em língua portuguesa" />
+        <script>
+            "use strict";
 
-   <!-- Scripts -->
-   <script src="/build/epub.min.js"></script>
-   <!--<script src="/build/libs/zip.min.js"></script>-->
+            document.onreadystatechange = function () {
+              if (document.readyState == "complete") {
+                EPUBJS.filePath = "js/libs/";
+                EPUBJS.cssPath = window.location.href.replace(window.location.hash, '').replace('index.html', '') + "css/";
+                // fileStorage.filePath = EPUBJS.filePath;
 
-   <!-- CSS -->
-   <link href="styles/normalize.css" rel="stylesheet">
-   <link href="styles/estilo.css" rel="stylesheet">
+                window.reader = ePubReader("dom-casmurro/");
+              }
+            };
 
-   <!-- Fontes -->
-   <link href='https://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+        </script>
 
-</head>
+        <!-- File Storage -->
+        <!-- <script src="js/libs/localforage.min.js"></script> -->
 
-<body>
+        <!-- Full Screen -->
+        <script src="js/libs/screenfull.min.js"></script>
 
-   <!-- eBook -->
-   <div id="main">
-      <div class="indice">
-         <select id="toc">
-            <option>Selecione o capítulo</option>
-         </select>
+        <!-- Render -->
+        <script src="js/epub.min.js"></script>
+
+        <!-- Hooks -->
+        <script src="js/hooks.min.js"></script>
+
+        <!-- Reader -->
+        <script src="js/reader.min.js"></script>
+
+        <!-- Plugins -->
+        <!-- <script src="js/plugins/search.js"></script> -->
+
+        <!-- Highlights -->
+        <!-- <script src="js/libs/jquery.highlight.js"></script> -->
+        <!-- <script src="js/hooks/extensions/highlight.js"></script> -->
+
+    </head>
+    <body>
+      <div id="sidebar">
+        <div id="panels">
+          <input id="searchBox" placeholder="search" type="search">
+
+          <a id="show-Search" class="show_view icon-search" data-view="Search">Search</a>
+          <a id="show-Toc" class="show_view icon-list-1 active" data-view="Toc">TOC</a>
+          <a id="show-Bookmarks" class="show_view icon-bookmark" data-view="Bookmarks">Bookmarks</a>
+          <a id="show-Notes" class="show_view icon-edit" data-view="Notes">Notes</a>
+
+        </div>
+        <div id="tocView" class="view">
+        </div>
+        <div id="searchView" class="view">
+          <ul id="searchResults"></ul>
+        </div>
+        <div id="bookmarksView" class="view">
+          <ul id="bookmarks"></ul>
+        </div>
+        <div id="notesView" class="view">
+          <div id="new-note">
+            <textarea id="note-text"></textarea>
+            <button id="note-anchor">Anchor</button>
+          </div>
+          <ol id="notes"></ol>
+        </div>
       </div>
-      <div class="titulo">
-         <h1>Dom Casmurro - Machado de Assis</h1>
+      <div id="main">
+
+        <div id="titlebar">
+          <div id="opener">
+            <a id="slider" class="icon-menu">Menu</a>
+          </div>
+          <div id="metainfo">
+            <span id="book-title"></span>
+            <span id="title-seperator">&nbsp;&nbsp;–&nbsp;&nbsp;</span>
+            <span id="chapter-title"></span>
+          </div>
+          <div id="title-controls">
+            <a id="bookmark" class="icon-bookmark-empty">Bookmark</a>
+            <a id="setting" class="icon-cog">Settings</a>
+            <a id="fullscreen" class="icon-resize-full">Fullscreen</a>
+          </div>
+        </div>
+
+        <div id="divider"></div>
+        <div id="prev" class="arrow">‹</div>
+        <div id="viewer"></div>
+        <div id="next" class="arrow">›</div>
+
+        <div id="loader"><img src="img/loader.gif"></div>
       </div>
-      <div id="prev" onclick="Book.prevPage();" class="arrow">‹</div>
-      <div id="area"></div>
-      <div id="next" onclick="Book.nextPage();" class="arrow">›</div>
-   </div>
-
-   <!-- Scripts relacionados ao eBook -->
-   <script>
-      var Book = ePub("/ebook/dom-casmurro");
-      Book.renderTo("area");
-
-      Book.getToc().then(function(toc){
-        var $select = document.getElementById("toc"),
-            docfrag = document.createDocumentFragment();
-        toc.forEach(function(chapter) {
-          var option = document.createElement("option");
-          option.textContent = chapter.label;
-          option.ref = chapter.href;
-          docfrag.appendChild(option);
-        });
-
-        $select.appendChild(docfrag);
-
-        $select.onchange = function(){
-            var index = $select.selectedIndex,
-                url = $select.options[index].ref;
-            Book.goto(url);
-            return false;
-        }
-      });
-
-   </script>
-
-</body>
+      <div class="modal md-effect-1" id="settings-modal">
+          <div class="md-content">
+              <h3>Settings</h3>
+              <div>
+                  <p>
+                    <input type="checkbox" id="sidebarReflow" name="sidebarReflow">Reflow text when sidebars are open.
+                  </p>
+              </div>
+              <div class="closer icon-cancel-circled"></div>
+          </div>
+      </div>
+      <div class="overlay"></div>
+    </body>
 </html>
