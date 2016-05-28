@@ -2,6 +2,20 @@ body {
  overflow: hidden;
 }
 
+h1{
+   font-size:1em;
+   text-align:center;
+   color:rgb(160,160,160);
+   font-weight:700;
+   font-family: 'Merriweather', serif;
+}
+
+.indice{
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
 #main {
  position: absolute;
  width: 100%;
