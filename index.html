@@ -61,10 +61,10 @@
         var $select = document.getElementById("toc"),
             docfrag = document.createDocumentFragment();
         toc.forEach(function(chapter) {
-          var option = document.createElement("a");
-          option.textContent = chapter.label;
-          option.ref = chapter.href;
-          docfrag.appendChild(option);
+          var anchor = document.createElement("a");
+          anchor.textContent = chapter.label;
+          anchor.ref = chapter.href;
+          docfrag.appendChild(anchor);
         });
 
         $select.appendChild(docfrag);
