@@ -119,10 +119,16 @@ footer{
    background:#821E14;
    color:white;
 }
+
 .cor-1 a{
    color:rgb(240,140,140);
    font-weight:800;
    text-decoration: underline;
+}
+
+.cor-1 .btn{
+   color:rgb(60,60,60);
+   text-decoration: none;
 }
 
 .cor-1 small{
