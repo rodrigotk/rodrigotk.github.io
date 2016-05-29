@@ -51,6 +51,18 @@
 
    </script>
 
+   <!-- Google Analytics -->
+   <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-78475840-1', 'auto');
+   ga('send', 'pageview');
+
+   </script>
+
    <!-- Full Screen -->
    <script src="js/libs/screenfull.min.js"></script>
 
@@ -68,7 +80,7 @@
 <body>
    <div id="sidebar">
       <div id="panels">
-         <input id="searchBox" placeholder="search" type="search">
+         <input id="searchBox" placeholder="Procurar capítulo" type="search">
 
          <a id="show-Search" class="show_view icon-search" data-view="Search">Pesquisar</a>
          <a id="show-Toc" class="show_view icon-list-1 active" data-view="Toc">Índice</a>
@@ -87,7 +99,7 @@
       <div id="notesView" class="view">
          <div id="new-note">
             <textarea id="note-text"></textarea>
-            <button id="note-anchor">Ancoras</button>
+            <button id="note-anchor">Criar nota aqui</button>
          </div>
          <ol id="notes"></ol>
       </div>

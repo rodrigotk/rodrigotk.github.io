@@ -15,26 +15,16 @@ body {
 }
 
 #main {
-  /* height: 500px; */
   position: absolute;
   width: 100%;
   height: 100%;
   right: 0;
-  /* left: 40px; */
-/*   -webkit-transform: translate(40px, 0);
-  -moz-transform: translate(40px, 0); */
-
-  /* border-radius: 5px 0px 0px 5px; */
   border-radius: 5px;
   background: #fff;
   overflow: hidden;
   -webkit-transition: -webkit-transform .4s, width .2s;
   -moz-transition: -webkit-transform .4s, width .2s;
   -ms-transition: -webkit-transform .4s, width .2s;
-
-  -moz-box-shadow:    inset 0 0 50px rgba(0,0,0,.1);
-  -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,.1);
-  -ms-box-shadow: inset 0 0 50px rgba(0,0,0,.1);
   box-shadow:         inset 0 0 50px rgba(0,0,0,.1);
 }
 
@@ -43,11 +33,10 @@ body {
   height: 8%;
   min-height: 20px;
   padding: 10px;
-  /* margin: 0 50px 0 50px; */
   position: relative;
   color: #4f4f4f;
   font-weight: 100;
-  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   opacity: .5;
   text-align: center;
   -webkit-transition: opacity .5s;
@@ -84,10 +73,6 @@ body {
 #titlebar a:active {
   opacity: 1;
   color: rgba(0,0,0,.6);
-  /* margin: 1px -1px -1px 1px; */
-  -moz-box-shadow:    inset 0 0 6px rgba(155,155,155,.8);
-  -webkit-box-shadow: inset 0 0 6px rgba(155,155,155,.8);
-  -ms-box-shadow: inset 0 0 6px rgba(155,155,155,.8);
   box-shadow: inset 0 0 6px rgba(155,155,155,.8);
 }
 
@@ -102,7 +87,6 @@ body {
 #viewer {
   width: 80%;
   height: 80%;
-  /* margin-left: 10%; */
   margin: 0 auto;
   max-width: 1250px;
   z-index: 2;
@@ -131,10 +115,6 @@ body {
   font-family: arial, sans-serif;
   font-weight: bold;
   cursor: pointer;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -150,9 +130,6 @@ body {
 #sidebar {
   background: #6b6b6b;
   position: absolute;
-  /* left: -260px; */
-  /* -webkit-transform: translate(-260px, 0);
-  -moz-transform: translate(-260px, 0); */
   top: 0;
   min-width: 300px;
   width: 25%;
@@ -160,18 +137,10 @@ body {
   -webkit-transition: -webkit-transform .5s;
   -moz-transition: -moz-transform .5s;
   -ms-transition: -moz-transform .5s;
-
   overflow: hidden;
 }
 
-#sidebar.open {
- /* left: 0; */
- /* -webkit-transform: translate(0, 0);
- -moz-transform: translate(0, 0); */
-}
-
 #main.closed {
-  /* left: 300px; */
   -webkit-transform: translate(300px, 0);
   -moz-transform: translate(300px, 0);
   -ms-transform: translate(300px, 0);
@@ -179,11 +148,6 @@ body {
 
 #main.single {
   width: 75%;
-}
-
-#main.single #viewer {
-  /* width: 60%;
-  margin-left: 20%; */
 }
 
 #panels {
@@ -201,13 +165,8 @@ body {
 }
 
 #opener {
-  /* padding: 10px 10px; */
   float: left;
 }
-
-/* #opener #slider {
-  width: 25px;
-} */
 
 #metainfo {
   display: inline-block;
@@ -252,17 +211,6 @@ body {
   float: left;
   margin-left: 10px;
   margin-top: -1px;
-  /*
-  border-radius: 5px;
-  background: #9b9b9b;
-  float: left;
-  margin-left: 5px;
-  margin-top: -5px;
-  padding: 3px 10px;
-  color: #000;
-  border: none;
-  outline: none; */
-
 }
 
 input::-webkit-input-placeholder {
@@ -285,7 +233,7 @@ input:-ms-placeholder {
   margin-left: -1px;
   top: 10%;
   opacity: .15;
-  box-shadow: -2px 0 15px rgba(0, 0, 0, 1);
+  box-shadow: -2px 0 15px rgba(0, 0, 0, 0.7);
   display: none;
 }
 
@@ -341,7 +289,7 @@ input:-ms-placeholder {
 #bookmarksView li {
   margin-bottom:10px;
   width: 225px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   list-style: none;
   text-transform: capitalize;
 }
@@ -370,7 +318,6 @@ input:-ms-placeholder {
   color: #f1f1f1
 }
 
-/* #tocView li.openChapter > a, */
 .list_item a:hover {
   color: #E2E2E2;
 }
@@ -428,7 +375,7 @@ input:-ms-placeholder {
 #searchResults li {
   margin-bottom:10px;
   width: 225px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   list-style: none;
 }
 
@@ -512,7 +459,7 @@ input:-ms-placeholder {
 
 #settingsPanel h3 {
   color:#f1f1f1;
-  font-family:Georgia, "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   margin-bottom:10px;
 }
 
@@ -713,11 +660,6 @@ input:-ms-placeholder {
     -webkit-transform: translate(260px, 0);
     -moz-transform: translate(260px, 0);
     -ms-transform: translate(260px, 0);
-  }
-
-  #titlebar {
-    /* font-size: 16px; */
-    /* margin: 0 50px 0 50px; */
   }
 
   #metainfo {
